@@ -1,21 +1,20 @@
-## 🌐 **Terraform & HCL Basics**
+# 🌐 **Terraform & HCL Basics**
 
-Terraform is an Infrastructure as Code (IaC) tool that lets you define cloud infrastructure using code.
-The language used to write Terraform configurations is called HCL (HashiCorp Configuration Language).
+**Terraform** is an **Infrastructure as Code (IaC)** tool that lets you define cloud infrastructure using code.
+The language used to write Terraform configurations is called **HCL (HashiCorp Configuration Language)**.
 
-Key points about HCL:
+**Key points about HCL:**
 
-Human-readable and declarative.
+* Human-readable and declarative.
+* Blocks define resources, variables, providers, etc.
+* Supports expressions, lists, maps, and functions.
+* File extension: `.tf`
 
-Blocks define resources, variables, providers, etc.
+---
 
-Supports expressions, lists, maps, and functions.
+# 🏗 **HCL Syntax**
 
-File extension: .tf
-
-## 🏗 **HCL Syntax**
-
-HCL is mostly block-based, with key-value pairs inside blocks.
+HCL is mostly **block-based**, with key-value pairs inside blocks.
 
 Basic structure:
 
@@ -25,6 +24,8 @@ resource "RESOURCE_TYPE" "NAME" {
   another_key = 123
 }
 ```
+
+---
 
 ## **1️⃣ Providers**
 
